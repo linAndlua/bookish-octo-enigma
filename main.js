@@ -106,7 +106,7 @@ _compWin[k] = computerWin[k];
 computerWin[k] = 6;//这个位置对方不可能赢了
 if(myWin[k] == 5){
 // window.alert('你赢了');
-resultTxt.innerHTML = '恭喜，你赢了！';
+resultTxt.innerHTML = '｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡恭喜，你赢了！';
 over = true;
 }
 }
@@ -122,7 +122,7 @@ backbtn.onclick = function(e){
 if(!backAble) { return;}
 over = false;
 me = true;
-// resultTxt.innerHTML = 'o(╯□╰)o，悔棋中';
+// resultTxt.innerHTML = 'o(╯□╰)o，悔棋中...';
 // 撤销悔棋功能可用
 returnbtn.className = returnbtn.className.replace( new RegExp( "(\\s|^)unable(\\s|$)" )," " ); 
 // 我，悔棋
@@ -160,7 +160,7 @@ _compWin[k] = computerWin[k];
 computerWin[k] = 6;//这个位置对方不可能赢
 }
 if(myWin[k] == 5){
-resultTxt.innerHTML = '恭喜，你赢了！';
+resultTxt.innerHTML = '｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡恭喜，你赢了！';
 over = true;
 }
 }
